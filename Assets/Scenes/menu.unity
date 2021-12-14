@@ -243,7 +243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 139.5, y: -266.5}
+  m_AnchoredPosition: {x: 103, y: -257}
   m_SizeDelta: {x: 85.095, y: 72.3019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &540330668
@@ -529,7 +529,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -53, y: -265.6}
+  m_AnchoredPosition: {x: -121, y: -257}
   m_SizeDelta: {x: 85.095, y: 72.3019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &689003426
@@ -1167,8 +1167,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 371}
-  m_SizeDelta: {x: 1000, y: 70}
+  m_AnchoredPosition: {x: 9, y: 390}
+  m_SizeDelta: {x: 1100, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2010876398
 MonoBehaviour:
@@ -1203,7 +1203,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Get the four gems before the time ends.
+  m_Text: Get the 4 gems in the maze before the time ends.
 --- !u!222 &2010876399
 CanvasRenderer:
   m_ObjectHideFlags: 0
