@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class triggerScore : MonoBehaviour
 {
-    public int count;
+    /*public int count;
     public Text scoreText;
 
     void Start()
@@ -23,13 +23,16 @@ public class triggerScore : MonoBehaviour
         if (other.gameObject.tag=="Arrow")
         {
             Debug.Log("point scored: " +count);
-            count +=10;
-         }
-        Destroy(gameObject);
-    }
+            count +=1;
+            Destroy(gameObject);
+           
+        }
+     }
     // Update is called once per frame
     void Update()
     {
         SetScoreText();
+      
     }
+    */
 }

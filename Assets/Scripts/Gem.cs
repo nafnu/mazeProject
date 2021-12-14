@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Gem : MonoBehaviour
 {
+    public GameObject ObjPoints;
+    public int pointsOffer;
 
-    /*public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag=="Arrow")
+        if(other.tag=="Arrow")
         {
-            Destroy(other.gameObject);
+            ObjPoints.GetComponent<Points>().point += pointsOffer;
+            Destroy(gameObject);
         }
-    }*/
+    }
 }
