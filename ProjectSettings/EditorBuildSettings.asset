@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 05d0c0909c1ef2e4c92c9f5f5a52bc38
+  - enabled: 1
+    path: Assets/Scenes/level7_Timer.unity
+    guid: 3de9f56b78f509f45851379fa749b8cf
+  - enabled: 1
+    path: Assets/Scenes/menuWIN.unity
+    guid: a0de9402c672c3440b6002703ca080e7
   m_configObjects: {}
