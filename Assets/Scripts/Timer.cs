@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
+   bool timerActive = false;
+
    public float timeValue = 90;
    public Text timerText;
 
@@ -15,15 +17,23 @@ public class Timer : MonoBehaviour
  {
      if (timeValue > 0)
      {
+         timerActive = true;
          timeValue -= Time.deltaTime;
+         
      }
      else
      {
          timeValue = 0;
          timerText.text = timeValue.ToString();
+         timerActive = false;
          SceneManager.LoadScene(3);
         }
      DisplayTime(timeValue);
+
+     if(timerActive == true)
+       {
+            timeValue = timeValue - Time.deltaTime;
+        }
 
 
  }

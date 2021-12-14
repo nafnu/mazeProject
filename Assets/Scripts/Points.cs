@@ -10,7 +10,7 @@ public class Points : MonoBehaviour
 
     public Text scoreText;
 
-    private void Update()
+      private void Update()
     {
         scoreText.text = point.ToString();
 
