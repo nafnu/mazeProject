@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Timer : MonoBehaviour
 {
     public float timeValue = 90;
@@ -18,8 +19,11 @@ public class Timer : MonoBehaviour
         else
         {
             timeValue = 0;
+            timerText.text = timeValue.ToString();
         }
         DisplayTime(timeValue);
+
+       
     }
 
     void DisplayTime(float timeToDisplay)
@@ -38,5 +42,6 @@ public class Timer : MonoBehaviour
 
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
+        
     }
 }
