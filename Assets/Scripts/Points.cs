@@ -7,8 +7,9 @@ using UnityEngine.SceneManagement;
 public class Points : MonoBehaviour
 {
     public float point;
-
     public Text scoreText;
+
+    private Text timeFinishedText;
 
       private void Update()
     {
@@ -16,7 +17,7 @@ public class Points : MonoBehaviour
 
         if (point >= 4)
         {
-            SceneManager.LoadScene(2);
+          SceneManager.LoadScene(2);
         }
     }
 
